@@ -12,7 +12,7 @@ Each folder includes a detailed description of the project/exercise, the steps I
 ---
 
 ## 📘 Course Theory and Resources
-For theoretical insights and additional resources, you can check out [my professor’s repository](https://github.com/dadegi/U1-S1-L1). It contains foundational lectures, notes, and other key resources that supplement the hands-on projects here.
+For theoretical insights and additional resources, you can check out [my professor’s repositories](https://github.com/dadegi?tab=repositories). It contains foundational lectures, notes, and other key resources that supplement the hands-on projects here.
 
 ---
 

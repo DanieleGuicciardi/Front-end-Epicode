@@ -1,13 +1,26 @@
 # Front-End Course Exercises - Epicode
 
-This repository contains all the exercises and projects I’ll complete during the **Epicode Front-End Development** course. Here, I’ll document my learning journey, challenges, and practical projects as I develop skills in:
+Welcome to my **Epicode Front-End Development** journey! This repository contains all the exercises and projects I complete throughout the course. Here, I’ll document my learning progress, challenges, and practical projects as I build skills in:
 
-- **HTML** - Creating semantic and accessible page structures
-- **CSS** - Advanced styling, responsive layouts, and engaging design
-- **JavaScript** - Interactive and dynamic client-side programming
-- **Frameworks/Libraries** - Introduction to major tools in the industry (such as React or others)
+- **HTML** - Crafting semantic and accessible page structures.
+- **CSS** - Mastering advanced styling, responsive layouts, and engaging design.
+- **JavaScript** - Creating dynamic, interactive client-side experiences.
+- **Frameworks/Libraries** - Exploring major industry tools like React and others.
 
-Each folder includes a description of the project/exercise and the steps I followed to complete it, along with explanations and comments in the code for greater clarity.
+Each folder includes a detailed description of the project/exercise, the steps I followed to complete it, and comments in the code for added clarity.
 
-## How to Use This Repository
-This repo serves as both a personal documentation resource and a reference for anyone interested in exploring the hands-on projects completed throughout the course.
+---
+
+## 📘 Course Theory and Resources
+For theoretical insights and additional resources, you can check out [my professor’s repository](https://github.com/dadegi/U1-S1-L1). It contains foundational lectures, notes, and other key resources that supplement the hands-on projects here.
+
+---
+
+## 🔍 How to Use This Repository
+This repository serves as both:
+
+1. **A personal documentation resource** - Tracking my growth and consolidating knowledge.
+2. **A reference for fellow learners** - Anyone interested in exploring hands-on projects and exercises is welcome to browse through the completed work and explanations.
+
+Feel free to dive into each folder to explore individual exercises and projects. Let’s code!
+

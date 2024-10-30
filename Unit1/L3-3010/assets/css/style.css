@@ -1,0 +1,77 @@
+html{
+    font-family: Georgia, serif;
+}
+
+header{
+    margin: 0 auto;
+
+}
+
+header, #video {
+    text-align: center;
+}
+
+#logo{
+    width: 10%;
+}
+
+#barra{
+    color: rgba(255, 255, 0, 0.315);
+}
+
+h2{
+    background-color: #FDFBF1;
+    color: #095351;
+    font-size: 1em;
+}
+
+#row{
+    border-left: 3px solid #FFD700;
+    padding-left: 10px;
+    color: #B5460F;
+}
+
+
+
+
+
+main{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+video{
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#descriptionVideo{
+    text-align: center;
+    color: rgba(88, 97, 105, 0.582);
+}
+
+.titolo{
+    font-size: 1.8em;
+}
+
+.separator{
+    color: #c4f3f285;
+}
+
+.subtitle{
+    font-weight: 700;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+#finalp{
+    margin-left: 35px;
+}

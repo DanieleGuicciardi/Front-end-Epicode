@@ -117,7 +117,6 @@ if (x >= y && x >= z) {
   }
 }
 
-// Mostra il risultato in console
 console.log(numOrdinati);
 
 

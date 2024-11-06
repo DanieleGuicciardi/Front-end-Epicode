@@ -232,3 +232,9 @@ console.log(starWarsCharacters)
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+
+const randomNum = Math.floor(Math.random() * starWarsCharacters.length);  //numero casuale tra 0 e lenght dell array cosi da selezionare la posizione di un personaggio
+const personaggio = starWarsCharacters[randomNum];
+
+
+console.log(`Il personaggio selezionato randomicamente e ${personaggio.name} `);

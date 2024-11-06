@@ -146,6 +146,8 @@ const eyeColor = {
   blue_gray: [],
 }
 
+console.log
+
 
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
@@ -229,6 +231,8 @@ console.log(starWarsCharacters)
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
 
+// BOOOH
+
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
@@ -238,3 +242,5 @@ const personaggio = starWarsCharacters[randomNum];
 
 
 console.log(`Il personaggio selezionato randomicamente e ${personaggio.name} `);
+
+

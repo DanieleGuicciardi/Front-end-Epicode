@@ -263,11 +263,24 @@ console.log(titolimillennio);
 
 console.log("Esercizio", n=n+1);
 
+let sommanni = movies.reduce((acc, film)=> {
+  return acc + Number(film.Year);
+}, 0)
+
+console.log(sommanni);
+
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
 console.log("Esercizio", n=n+1);
+
+function trovaFilm(imdbID) {
+  return movies.find(film => film.imdbID === imdbID);
+}
+
+console.log(trovaFilm("tt2395427"));
+
 
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.

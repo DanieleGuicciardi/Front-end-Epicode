@@ -242,7 +242,7 @@ console.log(movies.length);
 
 console.log("Esercizio", n=n+1);
 
-let titoli = movies.map(film => film.Title);
+const titoli = movies.map(film => film.Title);
 
 console.log(titoli);
 
@@ -287,3 +287,5 @@ console.log(trovaFilm("tt2395427"));
 */
 
 console.log("Esercizio", n=n+1);
+
+

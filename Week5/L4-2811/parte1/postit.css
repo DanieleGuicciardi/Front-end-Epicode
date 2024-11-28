@@ -1,0 +1,47 @@
+body {
+    font-family: "Indie Flower", sans-serif;
+    background-color: grey;
+}
+
+#lavagna {
+    display: flex;
+    padding: 5em;
+    flex-wrap: wrap;
+    margin-left: 3em;
+}
+
+.postit {
+    border: 1px solid black;
+    margin: 2em;
+    padding: 7em;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+}
+
+.postit h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.postit p {
+    font-size: 25px;
+}
+
+.yellowpostit {
+    background: linear-gradient(to bottom, #fff9c4, #d1c44f);
+    transform: rotate(-2deg);
+}
+
+.greenpostit {
+    background: linear-gradient(rgb(204, 255, 204) 0%, rgb(184, 219, 184) 75%, rgb(146 180 146) 93%);
+    transform: rotate(2deg);
+}
+
+.violetpostit {
+    background: linear-gradient(rgb(204, 204, 255) 0%, rgb(176, 176, 204) 75%, rgb(147 147 186) 93%);
+    transform: rotate(3deg);
+}
+
+
+.postit:hover {
+    transform: scale(1.1);
+}

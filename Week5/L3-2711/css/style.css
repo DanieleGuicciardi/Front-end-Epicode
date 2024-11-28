@@ -1,0 +1,69 @@
+* {             /* reset di base */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #742305;
+}
+
+/* header */
+
+#sidebar {
+    background-color: #fef7e2;
+    margin: 2em;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#mainBtn, .sidebarBtn {
+    background-color: #ffdf7e;
+    margin: 1em;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 25px;
+    padding: 0.5em;
+    color: #742305;
+}
+
+#mainBtn img {
+    width: 80px;
+}
+
+#mainBtn {
+    display: flex;
+    display: inline;
+    padding: 0.9em;
+}
+
+#mainBtn p {
+    display: inline;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+
+/* best Products */
+
+#bestSell {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.article {
+    background-color: #fef7e2;
+    margin: 2em;
+    border-radius: 50px;
+
+}
+
+.article img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}

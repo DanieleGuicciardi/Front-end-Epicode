@@ -8,3 +8,44 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+
+body {
+    font-family: 'Bree Serif', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#testoAlternato {
+    border: 1px solid black;
+    padding: 1em;
+    font-size: 30px;
+}
+
+.parole {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    height: 1.5em; 
+}
+
+.parole i {
+    display: block;
+    height: 100%;
+    animation: alternaParole 6s linear infinite;
+}
+
+@keyframes alternaParole {
+    0%, 33% {
+        transform: translateY(0);
+    }
+    34%, 66% {
+        transform: translateY(-100%);
+    }
+    67%, 100% {
+        transform: translateY(-200%);
+    }
+}

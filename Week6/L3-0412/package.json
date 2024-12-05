@@ -1,0 +1,22 @@
+{
+  "name": "firstex",
+  "version": "1.0.0",
+  "description": "first exercise with sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanieleGuicciardi/Front-end-Epicode.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "DanieleGuicciardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanieleGuicciardi/Front-end-Epicode/issues"
+  },
+  "homepage": "https://github.com/DanieleGuicciardi/Front-end-Epicode#readme"
+}

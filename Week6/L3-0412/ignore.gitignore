@@ -1,0 +1,25 @@
+# Ignora il CSS compilato
+css/*.css
+css/*.css.map
+
+# Ignora file generati da Sass/SCSS
+*.map
+
+# Node.js e pacchetti (se usi npm o yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignora file temporanei del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora file di configurazione degli editor/IDE
+.vscode/
+.idea/
+*.log
+*.swp
+
+# Ignora eventuali file di build
+dist/
+build/

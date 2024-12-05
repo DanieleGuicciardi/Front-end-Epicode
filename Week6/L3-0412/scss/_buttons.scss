@@ -1,0 +1,32 @@
+.btn {
+    display: inline-block;
+    padding: $spacing-small $spacing-medium;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  
+    &.btn-blue {
+      background-color: $blue;
+      &:hover {
+        background-color: darken($blue, 10%);
+      }
+    }
+  
+    &.btn-orange {
+      background-color: $orange;
+      &:hover {
+        background-color: darken($orange, 10%);
+      }
+    }
+  
+    &.btn-green {
+      background-color: $green;
+      &:hover {
+        background-color: darken($green, 10%);
+      }
+    }
+  }
+  

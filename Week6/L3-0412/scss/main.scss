@@ -1,0 +1,64 @@
+@import 'reset';
+@import 'colors';
+@import 'fonts';
+@import 'spacing';
+@import 'buttons';
+@import 'mixins';
+
+.header {
+  background-color: $primary-purple;
+  color: $white;
+  padding: $spacing-medium;
+
+  .logo {
+    font-size: $font-size-large;
+    font-weight: bold;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+
+    li a {
+      color: $white;
+      text-decoration: none;
+      margin-left: $spacing-medium;
+      font-size: $font-size-small;
+    }
+  }
+}
+
+.hero {
+  @include center-flex;
+  flex-direction: row;
+  background-color: $primary-purple;
+  color: $white;
+  padding: $spacing-large;
+
+  .hero-content {
+    max-width: 50%;
+    h1 {
+      font-size: $font-size-large;
+    }
+    p {
+      margin-top: $spacing-medium;
+    }
+  }
+
+  .buttons {
+    margin-top: $spacing-medium;
+  }
+}
+
+.gallery {
+  background-color: $gray;
+  padding: $spacing-large;
+
+  .gallery-item {
+    width: 200px;
+    height: 150px;
+    margin: $spacing-small;
+    background-color: $white;
+    @include box-shadow;
+  }
+}

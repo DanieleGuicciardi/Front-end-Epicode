@@ -12,7 +12,9 @@ Each folder includes a detailed description of the project/exercise, the steps I
 ---
 
 ## 📘 Course Theory and Resources
-For theoretical insights and additional resources, you can check out [my professor’s repositories](https://github.com/dadegi?tab=repositories). It contains foundational lectures, notes, and other key resources that supplement the hands-on projects here.
+
+For theoretical insights and additional resources, you can check out [my professor’s repositories](https://github.com/dadegi?tab=repositories), which include foundational lectures, notes, and other key materials.  
+Additionally, for insights into React, visit [this professor’s repository](https://github.com/irvelervel?tab=repositories) for in-depth lectures and resources tailored to React development.
 
 ---
 

@@ -4,7 +4,7 @@ const navbar = function () {
   return (
     <Navbar className='text-light bg-dark'>
       <Container fluid={true}>
-        <Navbar.Brand href="#home" className='text-light'>EpiBooks</Navbar.Brand>
+        <Navbar.Brand href="#home" className='text-light'>Bookscape</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

@@ -4,7 +4,6 @@ const Footer = function () {
   return (
     <footer className="bg-dark text-light py-4 mt-5">
       <div className="container text-center">
-        <p className="mb-1">© 2025 EpiBooks. Tutti i diritti riservati.</p>
         <ul className="list-inline">
           <li className="list-inline-item">
             <a href="#about" className="text-light">
@@ -22,6 +21,7 @@ const Footer = function () {
             </a>
           </li>
         </ul>
+        <p className="mb-1">© 2025 Bookscape. Tutti i diritti riservati.</p>
       </div>
     </footer>
   );

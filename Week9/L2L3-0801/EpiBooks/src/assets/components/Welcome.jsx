@@ -11,7 +11,7 @@ const WelcomeAlert = () => {
 
   return (
     <div className="alert alert-warning alert-dismissible fade show" role="alert">
-      <strong>Welcome to EpiBooks!</strong> I hope you enjoy our list of books!
+      <strong>Welcome to Bookscape!</strong> I hope you enjoy our list of books!
       <button
         type="button"
         className="btn-close"

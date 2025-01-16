@@ -6,6 +6,8 @@ import MyNav from './assets/components/MyNav.jsx'
 import MyFooter from './assets/components/MyFooter.jsx'
 import Welcome from './assets/components/Welcome.jsx'
 import AllTheBooks from './assets/components/AllTheBooks.jsx'
+import BookList from './assets/components/BookList.jsx'
+import books from './assets/libri/fantasy.json'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +16,10 @@ function App() {
     <>
       <MyNav/>
       <Welcome/>
-      <AllTheBooks/>
+      <div>
+        <BookList books={books} />
+      </div>
+      {/* <AllTheBooks/> */}
       <MyFooter/>
 
     </>
